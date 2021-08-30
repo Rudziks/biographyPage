@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0%;
+    padding-top: 1rem;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    border-bottom: black solid 2px;
+}
+
+nav li{
+    display: inline-block; 
+    padding: 10px;
+}
+.container a:hover{
+    border-top: rgb(122, 6, 122) 2px solid;
+    border-bottom: none;
+}
+
+.container{
+    text-align: center;
+}
+
+.mainH{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.gridContainer{
+    display: grid;
+}
+
+.gridItem{
+    text-align: center;
+}
+
+.gridItem img{
+    height: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.829);
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.aboutMe h1{
+    text-align: center;
+}
+
+.introMe p{
+    text-align: justify;
+    text-justify: auto;
+    margin-left: 8em;
+    margin-right: 8rem;
+    font-size: 16px;
+}
+
+.aboutMe p{
+    text-align: justify;
+    text-justify: auto;
+    margin-left: 8em;
+    margin-right: 8rem;
+}
+
+
+
+
+
+
+
+.br{
+    margin-top: 5rem;
+}
+
+.downBar{
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
